@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eros Toscano - IT-Strategie & Leadership</title>
+    <meta name="description" content="Erfahrener IT-Spezialist für Azure-Infrastrukturen, strategische Projektleitung und cross-funktionales Teammanagement">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="icToscano | IT-Strategie & Leadership">
+    <meta property="og:description" content="Experte für Azure-Infrastrukturen und strategische IT-Projektleitung">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        :root {
+            --primary-blue: #2A5C82;
+            --accent-teal: #2DCCCD;
+            --dark-gray: #2D2D2D;
+            --light-gray: #F5F5F5;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            line-height: 1.8;
+            color: var(--dark-gray);
+        }
+
+        .hero {
+            background: linear-gradient(45deg, var(--primary-blue), var(--accent-teal));
+            color: white;
+            padding: 8rem 2rem;
+            text-align: center;
+        }
+
+        .section {
+            padding: 4rem 2rem;
+        }
+
+        .competence-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .competence-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .competence-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .icon {
+            font-size: 2.5rem;
+            color: var(--primary-blue);
+            margin-bottom: 1rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: var(--accent-teal);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 2rem;
+            transition: background 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background: #25a8a9;
+        }
+
+        footer {
+            background: var(--dark-gray);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                padding: 4rem 1rem;
+            }
+            
+            .section {
+                padding: 2rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <h1 style="font-size: 2.5em; margin-bottom: 1rem;">Eros Toscano</h1>
+        <p style="font-size: 1.2em; max-width: 800px; margin: 0 auto;">
+            IT-Strateg | Azure-Architekt | Leadership-Coach
+        </p>
+    </section>
+
+    <section class="section" style="background: var(--light-gray);">
+        <div class="competence-grid">
+            <div class="competence-card">
+                <i class="icon fas fa-cloud-upload-alt"></i>
+                <h3>Azure & Cloud-Infrastrukturen</h3>
+                <p>Entwicklung und Optimierung von skalierbaren Cloud-Architekturen mit Fokus auf Microsoft Azure</p>
+            </div>
+            
+            <div class="competence-card">
+                <i class="icon fas fa-chess-king"></i>
+                <h3>Strategische IT-Führung</h3>
+                <p>Erarbeitung zukunftsfähiger Technologie-Strategien und Transformationsprozesse</p>
+            </div>
+            
+            <div class="competence-card">
+                <i class="icon fas fa-users-cog"></i>
+                <h3>Cross-Funktionales Leadership</h3>
+                <p>Agile Teamführung und Coaching für interdisziplinäre Projektteams</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <h2 style="margin-bottom: 2rem;">Mein Leistungsspektrum</h2>
+            
+            <div style="text-align: left; margin-bottom: 2rem;">
+                <h3><i class="fas fa-project-diagram"></i> Interim Management</h3>
+                <p>Übernahme von Führungsverantwortung in kritischen Projektphasen oder Transformationsprozessen</p>
+            </div>
+            
+            <div style="text-align: left; margin-bottom: 2rem;">
+                <h3><i class="fas fa-chalkboard-teacher"></i> IT-Coaching</h3>
+                <p>Individuelle Beratung für Führungskräfte und Projektteams in technologischen Change-Prozessen</p>
+            </div>
+            
+            <div style="text-align: left;">
+                <h3><i class="fas fa-cogs"></i> Prozessoptimierung</h3>
+                <p>Analyse und Restrukturierung von IT-Workflows mit Fokus auf Effizienz und Skalierbarkeit</p>
+            </div>
+            
+            <a href="mailto:kontakt@beispiel.com" class="cta-button">Projektanfrage stellen</a>
+        </div>
+    </section>
+
+    <footer>
+        <div style="max-width: 800px; margin: 0 auto;">
+            <h3 style="margin-bottom: 1.5rem;">Kontaktieren Sie mich</h3>
+            <p style="margin-bottom: 1rem;">
+                <i class="fas fa-envelope"></i> 
+                <a href="mailto:hoi@ictoscano.ch" style="color: white; text-decoration: none;">
+                    hoi@ictoscano.ch
+                </a>
+            </p>
+            <p>
+                <i class="fas fa-mobile-alt"></i> 
+                <a href="" style="color: white; text-decoration: none;"> soon </a>
+            </p>
+            <p style="margin-top: 2rem;">
+                &copy; <span id="currentYear"></span> ictoscano. Alle Rechte vorbehalten.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Aktuelles Jahr im Footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Smooth Scroll für eventuelle Navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
