@@ -3,188 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eros Toscano - IT-Strategie-, Leadership, IT-Projektleitung </title>
-    <meta name="description" content="Erfahrener IT-Spezialist für IT-Infrastrukturen, strategische und operative Projektleitung und cross-funktionales Teammanagement">
-    
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="icToscano | IT-Strategie & Leadership & Coaching ">
-    <meta property="og:description" content="Experte für IT-Infrastrukturen OnPremise und Cloud, sowie strategische IT-Projektleitung und teamübergreifende Zusammenarbeit">
+    <meta name="description" content="IT-Beratung & Security Spezialisten - On-Premise Infrastruktur & Microsoft Cloud Lösungen">
+    <meta name="keywords" content="IT-Security, Microsoft Cloud, Office365, Modern Workplace, Sharepoint, Eros Toscano">
+    <meta name="author" content="IC Toscano - Eros Toscano">
+    <meta property="og:title" content="IC-Toscano">
     <meta property="og:type" content="website">
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+    <title>IC Toscano</title>
     <style>
         :root {
-            --primary-blue: #2A5C82;
-            --accent-teal: #2DCCCD;
-            --dark-gray: #2D2D2D;
-            --light-gray: #F5F5F5;
+            --primary: #000;
+            --secondary: #fff;
+            --accent: #666;
         }
 
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: 'Courier New', monospace;
         }
 
         body {
-            font-family: 'Lato', sans-serif;
-            line-height: 1.5;
-            color: var(--dark-gray);
+            background: var(--secondary);
+            color: var(--primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
 
-        .hero {
-            background: linear-gradient(45deg, var(--primary-blue), var(--accent-teal));
-            color: white;
-            padding: 4rem 1rem;
-            text-align: center;
+        .header {
+            border-bottom: 3px solid var(--primary);
+            padding: 2rem;
+			max-width: 800px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            flex: 1;
         }
 
         .section {
-            padding: 2rem 1%;
-        }
-
-        .competence-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .competence-card {
-            background: white;
+            margin: 3rem 0;
             padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease;
+            border: 2px solid var(--primary);
+            box-shadow: 5px 5px 0 var(--accent);
         }
 
-        .competence-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .icon {
-            font-size: 2.5rem;
-            color: var(--primary-blue);
-            margin-bottom: 1rem;
-        }
-
-        .cta-button {
-            display: inline-block;
-            padding: 1rem 2rem;
-            background: var(--accent-teal);
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 2rem;
-            transition: background 0.3s ease;
-        }
-
-        .cta-button:hover {
-            background: #25a8a9;
-        }
 
         footer {
-            background: var(--dark-gray);
-            color: white;
-            padding: 3rem 2rem;
+            background: var(--primary);
+            color: var(--secondary);
             text-align: center;
+            padding: 1.5rem;
+            margin-top: auto;
         }
 
-        @media (max-width: 768px) {
-            .hero {
-                padding: 4rem 1rem;
-            }
-            
-            .section {
-                padding: 2rem 1rem;
-            }
+        .contact-info {
+            margin: 2rem 0;
+            text-align: left;
+			font-family: 'Courier New', monospace;
+        }
+
+        .ascii-art {
+            white-space: pre;
+            font-family: monospace;
+            text-align: center;
+            margin: 2rem 0;
         }
     </style>
 </head>
 <body>
-    <section class="hero">
-        <h1 style="font-size: 2.5em; margin-bottom: 1rem;">ICToscano</h1>
-        <p style="font-size: 1.2em; max-height: 200px; max-width: 800px; margin: 0 auto;">
-            IT-Strategie | Architektur | Leadership-Coach
-        </p>
-    </section>
 
-    <section class="section" style="background: var(--light-gray);">
-        <div class="competence-grid">
-            <div class="competence-card">
-                <i class="icon fas fa-cloud-upload-alt"></i>
-                <h3>IT Projektmanagement</h3>
-                <p>Strukturierte Planung und effiziente Umsetzung, um ihre IT-Projekte termingerecht und im Budgetrahmen erfolgreich abzuschliessen </p>
-            </div>
-            
-            <div class="competence-card">
-                <i class="icon fas fa-chess-king"></i>
-                <h3>Strategische IT-Führung</h3>
-                <p>Erarbeitung zukunftsfähiger Technologie-Strategien und Transformationsprozesse</p>
-            </div>
-            
-            <div class="competence-card">
-                <i class="icon fas fa-users-cog"></i>
-                <h3>Cross-Funktionales Leadership</h3>
-                <p>Agile Teamführung und Coaching für interdisziplinäre Projektteams</p>
-            </div>
-        </div>
-    </section>
+    <div class="container">
+        <div class="ascii-art">
+      __  ___  ____  __   ____   ___   __   __ _   __  
+ (  )/ __)(_  _)/  \ / ___) / __) / _\ (  ( \ /  \ 
+  )(( (__   )( (  O )\___ \( (__ /    \/    /(  O )
+ (__)\___) (__) \__/ (____/ \___)\_/\_/\_)__) \__/ 
 
-    <section class="section">
-        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
-            <h2 style="margin-bottom: 2rem;">Dienstleistungen</h2>
-            
-            <div style="text-align: left; margin-bottom: 2rem;">
-                <h3><i class="fas fa-project-diagram"></i> Interim Management</h3>
-                <p>Übernahme von Führungsverantwortung und Projektleitung in kritischen Projektphasen oder Transformationsprozessen</p>
-            </div>
-            
-            <div style="text-align: left; margin-bottom: 2rem;">
-                <h3><i class="fas fa-chalkboard-teacher"></i> IT-Coaching</h3>
-                <p>Individuelle Beratung für Führungskräfte und Projektteams in technologischen Change-Prozessen</p>
-            </div>
-            
-            <div style="text-align: left;">
-                <h3><i class="fas fa-cogs"></i> Prozessoptimierung</h3>
-                <p>Analyse und Restrukturierung von IT-Workflows mit Fokus auf Effizienz und Skalierbarkeit</p>
-            </div>
         </div>
-    </section>
+            <section class="section">
+            <h2>Über Mich</h2>
+            <p>Seit über 20 Jahren bin ich leidenschaftlich in der Informatikwelt tätig, von Supportaufgaben bis hin zu Engineering. Als Führungsperson mit einer Hands-On-Mentalität sehe ich mich als idealen Abteilungsleiter, der auf allen Ebenen kommunizieren und technisch mithalten kann, Teams fördert und technische Vorhaben umsetzt.</p>
+        </section>
+        <section class="section">
+            <h2>Leistungen</h2>
+            <ul>
+			
+				<li>Strategische IT-Führung</li>
+				<li>IT-Projektmanagement, Technisch & Personell</li>
+				<li>Leadership & Coaching </li>
+				<li>IT Supervisor</li>
+				<li>Microsoft Cloud Migrationen</li>
+                <li>Modern Workplace Konzepte</li>
+                <li>Sharepoint Integrationen</li>
+				<li>Microsoft Office 365 Plattform</li>
+				<li>IT-Security Reviews</li>			
+            </ul>
+        </section>
+
+        <div class="contact-info">
+          <!-- z  <p>📞 tbd</p> --> 
+            <p>📧 <a href="mailto:hoi@ictoscano.ch"> hoi@ictoscano.ch</a></p>
+          <!-- z  <p>📍 tbd</p> --> 
+			<p>🔗 <a href="https://www.linkedin.com/in/erostoscano">über mich</a>
+        </div>
 
     <footer>
-        <div style="max-width: 800px; margin: 0 auto;">
-            <p style="margin-bottom: 1rem;">
-                <i class="fas fa-envelope"></i> 
-                <a href="mailto:hoi@ictoscano.ch" style="color: white; text-decoration: none;">
-                    hoi@ictoscano.ch
-                </a>
-            </p>
-            <p style="margin-top: 2rem;">
-                &copy; <span id="currentYear"></span> ictoscano. Alle Rechte vorbehalten.
-            </p>
-        </div>
+        <p>© <span id="year">2025</span> IC-Toscano • Alle Rechte vorbehalten</p>
     </footer>
-
     <script>
-        // Aktuelles Jahr im Footer
-        document.getElementById('currentYear').textContent = new Date().getFullYear();
-
-        // Smooth Scroll für eventuelle Navigation
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
+        // Automatisches Copyright-Jahr
+        document.getElementById('year').textContent = new Date().getFullYear();
+        
     </script>
 </body>
 </html>
